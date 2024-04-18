@@ -28,6 +28,7 @@
 		3F0AFE862BD1122C004CBC04 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AFE852BD1122C004CBC04 /* Helpers.swift */; };
 		3F0AFE882BD1127D004CBC04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0AFE872BD1127D004CBC04 /* Assets.xcassets */; };
 		3F0AFE8C2BD112C5004CBC04 /* Localizable.strings in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AFE8B2BD112C5004CBC04 /* Localizable.strings */; };
+		3F0AFE922BD12265004CBC04 /* LocationServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0AFE912BD12265004CBC04 /* LocationServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		3F0AFE852BD1122C004CBC04 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 		3F0AFE872BD1127D004CBC04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F0AFE8B2BD112C5004CBC04 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		3F0AFE912BD12265004CBC04 /* LocationServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				3F0AFE232BD1093E004CBC04 /* StickTests.swift */,
+				3F0AFE912BD12265004CBC04 /* LocationServiceTests.swift */,
 			);
 			path = StickTests;
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0AFE922BD12265004CBC04 /* LocationServiceTests.swift in Sources */,
 				3F0AFE242BD1093E004CBC04 /* StickTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

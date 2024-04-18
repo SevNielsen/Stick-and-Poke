@@ -6,3 +6,11 @@
 //
 
 import Foundation
+import CoreLocation
+
+struct User {
+    var id: String
+    var username: String
+    var profileImageURL: URL?
+    var lastKnownLocation: CLLocation?
+}
