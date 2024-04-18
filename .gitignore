@@ -1,0 +1,57 @@
+# Xcode
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+DerivedData/
+*.hmap
+*.ipa
+*.xcscmblueprint
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Swift Package Manager
+.build/
+Package.resolved
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# App Distribution
+*.app
+*.dSYM.zip
+*.dSYM/
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# OS generated files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external drives
+.DocumentRevisions-V100/
+.fseventsd
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.supported
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
